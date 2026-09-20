@@ -1,0 +1,2546 @@
+[
+  {
+    "id": "GEN-0001",
+    "rawText": "Abeg, I don click one link wey say na from computer science department. E ask me to enter my email and password for biometric attendance system.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0002",
+    "rawText": "I got an email pretending to be from bursary asking me to verify my payroll system login. I clicked the link and entered my password.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0003",
+    "rawText": "I got an email pretending to be from computer science department asking me to verify my hostel booking system login. I clicked the link and entered my password.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0004",
+    "rawText": "I got an email pretending to be from computer science department asking me to verify my hostel booking system login. I clicked the link and entered my password Another colleague reported the exact same message today.",
+    "type": "Phishing / Duplicate",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0005",
+    "rawText": "a lecturer received an email asking to \"verify payment\" on the exam portal. The link looked like the real site but the address was slightly different. I didn't click anything.",
+    "type": "Phishing",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0006",
+    "rawText": "a staff member received an email asking to \"verify payment\" on the VPN. The link looked like the real site but the address was slightly different.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0007",
+    "rawText": "a postgraduate student received an email asking to \"verify payment\" on the research repository. The link looked like the real site but the address was slightly different. No further action was taken.",
+    "type": "Phishing",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0008",
+    "rawText": "I got an email pretending to be from finance department asking me to verify my learning management system login. I clicked the link and entered my password. It involved an administrator account.",
+    "type": "Phishing",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0009",
+    "rawText": "Abeg, I don click one link wey say na from research office. E ask me to enter my email and password for online result portal. It involved an administrator account.",
+    "type": "Phishing",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0010",
+    "rawText": "Abeg, I don click one link wey say na from research office. E ask me to enter my email and password for online result portal. It involved an administrator account Another colleague reported the exact same message today.",
+    "type": "Phishing / Duplicate",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0011",
+    "rawText": "a visiting researcher received an email asking to \"verify payment\" on the exam portal. The link looked like the real site but the address was slightly different. I didn't click anything.",
+    "type": "Phishing",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0012",
+    "rawText": "Someone sent a message claiming to be the works department, saying I should confirm my details on a linked website before over the weekend.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0013",
+    "rawText": "I got an email pretending to be from HR department asking me to verify my research repository login. I clicked the link and entered my password.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0014",
+    "rawText": "Abeg, I don click one link wey say na from HR department. E ask me to enter my email and password for learning management system.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0015",
+    "rawText": "a lecturer received an email asking to \"verify payment\" on the research repository. The link looked like the real site but the address was slightly different.",
+    "type": "Phishing",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0016",
+    "rawText": "We noticed a login to the research repository from an unfamiliar location just now.",
+    "type": "Suspicious Login",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0017",
+    "rawText": "a staff member received several login alert notifications for the student portal that they did not trigger.",
+    "type": "Suspicious Login",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0018",
+    "rawText": "I dey see login alert for my staff portal account since yesterday afternoon, but na never me login am. No further action was taken.",
+    "type": "Suspicious Login",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0019",
+    "rawText": "An account accessed the online result portal outside normal working hours, yesterday afternoon.",
+    "type": "Suspicious Login",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0020",
+    "rawText": "We noticed a login to the student portal from an unfamiliar location over the past few days. A ransom note was attached.",
+    "type": "Suspicious Login",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0021",
+    "rawText": "an administrator received several login alert notifications for the finance dashboard that they did not trigger.",
+    "type": "Suspicious Login",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0022",
+    "rawText": "I dey see login alert for my payroll system account since last night, but na never me login am. It involved an administrator account.",
+    "type": "Suspicious Login",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0023",
+    "rawText": "We noticed a login to the learning management system from an unfamiliar location around midnight. The message also asked for BVN details.",
+    "type": "Suspicious Login",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0024",
+    "rawText": "a staff member received several login alert notifications for the staff portal that they did not trigger. A ransom note was attached.",
+    "type": "Suspicious Login",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0025",
+    "rawText": "We noticed a login to the research repository from an unfamiliar location early this morning.",
+    "type": "Suspicious Login",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0026",
+    "rawText": "I dey see login alert for my finance dashboard account since over the past few days, but na never me login am.",
+    "type": "Suspicious Login",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0027",
+    "rawText": "a postgraduate student received several login alert notifications for the staff portal that they did not trigger.",
+    "type": "Suspicious Login",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0028",
+    "rawText": "An account accessed the hostel booking system outside normal working hours, over the weekend. I did not open the file.",
+    "type": "Suspicious Login",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0029",
+    "rawText": "My system don begin act funny after I download one file for email over the past few days. E dey open strange window by itself. It affected the finance department directly.",
+    "type": "Malware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0030",
+    "rawText": "The antivirus on a machine in ICT unit was disabled without explanation, and unfamiliar files appeared on the desktop. I didn't click anything.",
+    "type": "Malware",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0031",
+    "rawText": "a lecturer's computer became very slow after installing software from an untrusted website about an hour ago. Strange pop-up windows keep appearing.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0032",
+    "rawText": "My system don begin act funny after I download one file for email over the past few days. E dey open strange window by itself. I didn't click anything.",
+    "type": "Malware",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0033",
+    "rawText": "My system don begin act funny after I download one file for email over the past few days. E dey open strange window by itself. I didn't click anything Another colleague reported the exact same message today.",
+    "type": "Malware",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0034",
+    "rawText": "The antivirus on a machine in ICT unit was disabled without explanation, and unfamiliar files appeared on the desktop. I didn't click anything.",
+    "type": "Malware",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0035",
+    "rawText": "My system don begin act funny after I download one file for email yesterday afternoon. E dey open strange window by itself. No further action was taken.",
+    "type": "Malware",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0036",
+    "rawText": "A workstation in procurement unit is running at very high CPU usage with an unrecognized background process.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0037",
+    "rawText": "A workstation in procurement unit is running at very high CPU usage with an unrecognized background process Another colleague reported the exact same message today.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0038",
+    "rawText": "a contractor's computer became very slow after installing software from an untrusted website last night. Strange pop-up windows keep appearing.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0039",
+    "rawText": "My system don begin act funny after I download one file for email yesterday afternoon. E dey open strange window by itself. A ransom note was attached.",
+    "type": "Malware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0040",
+    "rawText": "A workstation in computer science department is running at very high CPU usage with an unrecognized background process.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0041",
+    "rawText": "A workstation in computer science department is running at very high CPU usage with an unrecognized background process Another colleague reported the exact same message today.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0042",
+    "rawText": "A workstation in works department is running at very high CPU usage with an unrecognized background process.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0043",
+    "rawText": "My system don begin act funny after I download one file for email this morning. E dey open strange window by itself. A ransom note was attached.",
+    "type": "Malware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0044",
+    "rawText": "My system don begin act funny after I download one file for email this morning. E dey open strange window by itself. A ransom note was attached Another colleague reported the exact same message today.",
+    "type": "Malware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0045",
+    "rawText": "A workstation in admissions office is running at very high CPU usage with an unrecognized background process.",
+    "type": "Malware",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0046",
+    "rawText": "Person call say na from ICT, ask make I read the code wey come my phone just now.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0047",
+    "rawText": "Someone called a department secretary pretending to be from IT support and asked them to read out a verification code sent to their phone.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0048",
+    "rawText": "A message on WhatsApp, pretending to be from a manager in bursary, asked for an urgent list of staff details.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0049",
+    "rawText": "A message on WhatsApp, pretending to be from a manager in bursary, asked for an urgent list of staff details.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0050",
+    "rawText": "an administrator was contacted by someone claiming to be a new colleague, asking for access to shared files in ICT unit. It affected the finance department directly.",
+    "type": "Social Engineering",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0051",
+    "rawText": "Someone called an administrator pretending to be from IT support and asked them to read out a verification code sent to their phone.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0052",
+    "rawText": "A message on WhatsApp, pretending to be from a manager in works department, asked for an urgent list of staff details. A ransom note was attached.",
+    "type": "Social Engineering",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0053",
+    "rawText": "Person call say na from ICT, ask make I read the code wey come my phone last night.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0054",
+    "rawText": "Someone called a finance officer pretending to be from IT support and asked them to read out a verification code sent to their phone.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0055",
+    "rawText": "A message on WhatsApp, pretending to be from a manager in works department, asked for an urgent list of staff details.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0056",
+    "rawText": "Someone called a finance officer pretending to be from IT support and asked them to read out a verification code sent to their phone.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0057",
+    "rawText": "a postgraduate student was contacted by someone claiming to be a new colleague, asking for access to shared files in HR department. It involved an administrator account.",
+    "type": "Social Engineering",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0058",
+    "rawText": "A message on WhatsApp, pretending to be from a manager in finance department, asked for an urgent list of staff details.",
+    "type": "Social Engineering",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0059",
+    "rawText": "A workstation is asking for a password to open files that opened normally yesterday, with a payment demand attached.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0060",
+    "rawText": "A workstation is asking for a password to open files that opened normally yesterday, with a payment demand attached.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0061",
+    "rawText": "Several computers in research office are displaying the same warning screen last night, and files can no longer be opened.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0062",
+    "rawText": "A workstation is asking for a password to open files that opened normally yesterday, with a payment demand attached.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0063",
+    "rawText": "Files in the bursary shared drive now have strange extensions and a note demanding payment to restore them.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0064",
+    "rawText": "Several computers in student affairs office are displaying the same warning screen early this morning, and files can no longer be opened.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0065",
+    "rawText": "Several computers in computer science department are displaying the same warning screen over the weekend, and files can no longer be opened.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0066",
+    "rawText": "All our files for learning management system don lock since last night, message dey ask us to pay before we fit open am again.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0067",
+    "rawText": "Several computers in works department are displaying the same warning screen over the past few days, and files can no longer be opened.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0068",
+    "rawText": "All our files for hostel booking system don lock since yesterday afternoon, message dey ask us to pay before we fit open am again. This affected multiple accounts.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0069",
+    "rawText": "Several computers in ICT unit are displaying the same warning screen around midnight, and files can no longer be opened. The message also asked for BVN details.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0070",
+    "rawText": "Files in the finance department shared drive now have strange extensions and a note demanding payment to restore them.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0071",
+    "rawText": "Several computers in research office are displaying the same warning screen sometime overnight, and files can no longer be opened.",
+    "type": "Ransomware",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0072",
+    "rawText": "My online result portal account dey tell me say password wrong, even though na the same password I dey always use.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0073",
+    "rawText": "An account tied to bursary has been sending unusual outbound messages that the owner says they never sent.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0074",
+    "rawText": "My staff portal account dey tell me say password wrong, even though na the same password I dey always use.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0075",
+    "rawText": "My staff portal account dey tell me say password wrong, even though na the same password I dey always use.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0076",
+    "rawText": "A login to the hostel booking system was flagged from a different city than where the user currently is, sometime overnight. It affected the finance department directly.",
+    "type": "Account Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0077",
+    "rawText": "A login to the research repository was flagged from a different city than where the user currently is, yesterday afternoon.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0078",
+    "rawText": "My research repository account dey tell me say password wrong, even though na the same password I dey always use.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0079",
+    "rawText": "a department secretary received multiple OTP codes for the online result portal that they did not request, then got logged out. I did not open the file.",
+    "type": "Account Compromise",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0080",
+    "rawText": "A login to the VPN was flagged from a different city than where the user currently is, around midnight.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0081",
+    "rawText": "A login to the online result portal was flagged from a different city than where the user currently is, around midnight.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0082",
+    "rawText": "a lecturer received multiple OTP codes for the learning management system that they did not request, then got logged out.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0083",
+    "rawText": "A login to the biometric attendance system was flagged from a different city than where the user currently is, last night.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0084",
+    "rawText": "A login to the biometric attendance system was flagged from a different city than where the user currently is, early this morning.",
+    "type": "Account Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0085",
+    "rawText": "Visitors to the university site report seeing altered content that nobody in HR department recognizes, around midnight.",
+    "type": "Website Defacement",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0086",
+    "rawText": "The HR department website is showing an unfamiliar page instead of the normal homepage, first noticed yesterday afternoon. The message also asked for BVN details.",
+    "type": "Website Defacement",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0087",
+    "rawText": "Visitors to the university site report seeing altered content that nobody in HR department recognizes, this morning.",
+    "type": "Website Defacement",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0088",
+    "rawText": "The research office website is showing an unfamiliar page instead of the normal homepage, first noticed early this morning.",
+    "type": "Website Defacement",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0089",
+    "rawText": "Visitors to the university site report seeing altered content that nobody in admissions office recognizes, early this morning. The message also asked for BVN details.",
+    "type": "Website Defacement",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0090",
+    "rawText": "Visitors to the university site report seeing altered content that nobody in procurement unit recognizes, about an hour ago. I did not open the file.",
+    "type": "Website Defacement",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0091",
+    "rawText": "The library website is showing an unfamiliar page instead of the normal homepage, first noticed yesterday afternoon.",
+    "type": "Website Defacement",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0092",
+    "rawText": "The research office website is showing an unfamiliar page instead of the normal homepage, first noticed about an hour ago. It affected the finance department directly.",
+    "type": "Website Defacement",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0093",
+    "rawText": "Visitors to the university site report seeing altered content that nobody in bursary recognizes, sometime overnight. The message also asked for BVN details.",
+    "type": "Website Defacement",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0094",
+    "rawText": "Visitors to the university site report seeing altered content that nobody in finance department recognizes, this morning. This affected multiple accounts.",
+    "type": "Website Defacement",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0095",
+    "rawText": "The HR department website is showing an unfamiliar page instead of the normal homepage, first noticed just now.",
+    "type": "Website Defacement",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0096",
+    "rawText": "Visitors to the university site report seeing altered content that nobody in bursary recognizes, yesterday afternoon. It affected the finance department directly.",
+    "type": "Website Defacement",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0097",
+    "rawText": "The finance department website is showing an unfamiliar page instead of the normal homepage, first noticed yesterday afternoon. It affected the finance department directly.",
+    "type": "Website Defacement",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Web / Incident Response"
+  },
+  {
+    "id": "GEN-0098",
+    "rawText": "a department secretary mistakenly sent a spreadsheet containing student results to the wrong external email address. A ransom note was attached.",
+    "type": "Data Leakage",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0099",
+    "rawText": "a system administrator mistakenly sent a spreadsheet containing student results to the wrong external email address.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0100",
+    "rawText": "a department secretary mistakenly sent a spreadsheet containing student results to the wrong external email address. It involved an administrator account.",
+    "type": "Data Leakage",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0101",
+    "rawText": "a contractor mistakenly sent a spreadsheet containing student results to the wrong external email address.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0102",
+    "rawText": "a student mistakenly sent a spreadsheet containing student results to the wrong external email address. A ransom note was attached.",
+    "type": "Data Leakage",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0103",
+    "rawText": "a lecturer mistakenly sent a spreadsheet containing student results to the wrong external email address.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0104",
+    "rawText": "an intern mistakenly sent a spreadsheet containing student results to the wrong external email address.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0105",
+    "rawText": "An attachment meant only for ICT unit was accidentally forwarded to an outside mailing list early this morning.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0106",
+    "rawText": "an administrator mistakenly sent a spreadsheet containing student results to the wrong external email address.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0107",
+    "rawText": "An attachment meant only for procurement unit was accidentally forwarded to an outside mailing list last night.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0108",
+    "rawText": "a staff member mistakenly sent a spreadsheet containing student results to the wrong external email address. I didn't click anything.",
+    "type": "Data Leakage",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0109",
+    "rawText": "a system administrator mistakenly sent a spreadsheet containing student results to the wrong external email address.",
+    "type": "Data Leakage",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0110",
+    "rawText": "a lecturer mistakenly sent a spreadsheet containing student results to the wrong external email address. A ransom note was attached.",
+    "type": "Data Leakage",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0111",
+    "rawText": "bursary's admin login was targeted with repeated failed password attempts just now.",
+    "type": "Brute Force Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0112",
+    "rawText": "HR department's admin login was targeted with repeated failed password attempts yesterday afternoon.",
+    "type": "Brute Force Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0113",
+    "rawText": "registrar's office's admin login was targeted with repeated failed password attempts around midnight. It involved an administrator account.",
+    "type": "Brute Force Attempt",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0114",
+    "rawText": "procurement unit's admin login was targeted with repeated failed password attempts last night. This affected multiple accounts.",
+    "type": "Brute Force Attempt",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0115",
+    "rawText": "works department's admin login was targeted with repeated failed password attempts around midnight.",
+    "type": "Brute Force Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0116",
+    "rawText": "Multiple failed login attempts were logged against the administrator account on the email account between midnight and 3am. It involved an administrator account.",
+    "type": "Brute Force Attempt",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0117",
+    "rawText": "library's admin login was targeted with repeated failed password attempts yesterday afternoon. This affected multiple accounts.",
+    "type": "Brute Force Attempt",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0118",
+    "rawText": "works department's admin login was targeted with repeated failed password attempts sometime overnight. No further action was taken.",
+    "type": "Brute Force Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0119",
+    "rawText": "Multiple failed login attempts were logged against the administrator account on the exam portal between midnight and 3am. A ransom note was attached.",
+    "type": "Brute Force Attempt",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0120",
+    "rawText": "finance department's admin login was targeted with repeated failed password attempts last night.",
+    "type": "Brute Force Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0121",
+    "rawText": "computer science department's admin login was targeted with repeated failed password attempts early this morning. It affected the finance department directly.",
+    "type": "Brute Force Attempt",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0122",
+    "rawText": "library's admin login was targeted with repeated failed password attempts about an hour ago.",
+    "type": "Brute Force Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0123",
+    "rawText": "research office's admin login was targeted with repeated failed password attempts last night.",
+    "type": "Brute Force Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0124",
+    "rawText": "a student accidentally uploaded a file containing an API key for the finance dashboard to a public code repository.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0125",
+    "rawText": "A database backup from ICT unit was found on a server that is publicly accessible, containing names and phone numbers. It involved an administrator account.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0126",
+    "rawText": "an administrator accidentally uploaded a file containing an API key for the student portal to a public code repository. I didn't click anything.",
+    "type": "Data Exposure",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0127",
+    "rawText": "A database backup from library was found on a server that is publicly accessible, containing names and phone numbers. It involved an administrator account.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0128",
+    "rawText": "A shared folder from student affairs office was set to \"anyone with the link\" and contained internal documents. The message also asked for BVN details.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0129",
+    "rawText": "A database backup from registrar's office was found on a server that is publicly accessible, containing names and phone numbers. I didn't click anything.",
+    "type": "Data Exposure",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0130",
+    "rawText": "A database backup from bursary was found on a server that is publicly accessible, containing names and phone numbers.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0131",
+    "rawText": "A database backup from library was found on a server that is publicly accessible, containing names and phone numbers. A ransom note was attached.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0132",
+    "rawText": "A database backup from works department was found on a server that is publicly accessible, containing names and phone numbers. A ransom note was attached.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0133",
+    "rawText": "A shared folder from library was set to \"anyone with the link\" and contained internal documents.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0134",
+    "rawText": "A database backup from computer science department was found on a server that is publicly accessible, containing names and phone numbers. It involved an administrator account.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0135",
+    "rawText": "A database backup from registrar's office was found on a server that is publicly accessible, containing names and phone numbers. A ransom note was attached.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0136",
+    "rawText": "a department secretary accidentally uploaded a file containing an API key for the exam portal to a public code repository.",
+    "type": "Data Exposure",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Data Protection / Security"
+  },
+  {
+    "id": "GEN-0137",
+    "rawText": "a postgraduate student is receiving password-reset emails for the research repository that they never requested.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0138",
+    "rawText": "Abeg, I dey get password reset message for my biometric attendance system wey I no request, since just now. The message also asked for BVN details.",
+    "type": "Account Compromise Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0139",
+    "rawText": "Abeg, I dey get password reset message for my staff portal wey I no request, since this morning.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0140",
+    "rawText": "Abeg, I dey get password reset message for my learning management system wey I no request, since early this morning.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0141",
+    "rawText": "a student is receiving password-reset emails for the biometric attendance system that they never requested.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0142",
+    "rawText": "a student is receiving password-reset emails for the biometric attendance system that they never requested.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0143",
+    "rawText": "a department secretary is receiving password-reset emails for the biometric attendance system that they never requested.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0144",
+    "rawText": "Abeg, I dey get password reset message for my finance dashboard wey I no request, since this morning. The message also asked for BVN details.",
+    "type": "Account Compromise Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0145",
+    "rawText": "Abeg, I dey get password reset message for my student portal wey I no request, since sometime overnight. A ransom note was attached.",
+    "type": "Account Compromise Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0146",
+    "rawText": "Abeg, I dey get password reset message for my online result portal wey I no request, since over the past few days.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0147",
+    "rawText": "a contractor is receiving password-reset emails for the biometric attendance system that they never requested. This affected multiple accounts.",
+    "type": "Account Compromise Attempt",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0148",
+    "rawText": "a research assistant is receiving password-reset emails for the hostel booking system that they never requested.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0149",
+    "rawText": "Abeg, I dey get password reset message for my exam portal wey I no request, since around midnight.",
+    "type": "Account Compromise Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Identity / Security"
+  },
+  {
+    "id": "GEN-0150",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in registrar's office, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0151",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in research office, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0152",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in HR department, and nobody knows who left it there. It affected the finance department directly.",
+    "type": "Suspicious Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0153",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in ICT unit, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0154",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in admissions office, and nobody knows who left it there. It involved an administrator account.",
+    "type": "Suspicious Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0155",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in research office, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0156",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in finance department, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0157",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in finance department, and nobody knows who left it there. It involved an administrator account.",
+    "type": "Suspicious Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0158",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in HR department, and nobody knows who left it there. I didn't click anything.",
+    "type": "Suspicious Device",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0159",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in finance department, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0160",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in bursary, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0161",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in procurement unit, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0162",
+    "rawText": "An unrecognized USB drive was found plugged into a computer in finance department, and nobody knows who left it there.",
+    "type": "Suspicious Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0163",
+    "rawText": "The administrator email on the research repository was changed without anyone in works department authorizing it.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0164",
+    "rawText": "The administrator email on the learning management system was changed without anyone in student affairs office authorizing it.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0165",
+    "rawText": "The administrator email on the online result portal was changed without anyone in bursary authorizing it. The message also asked for BVN details.",
+    "type": "Unauthorized Access",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0166",
+    "rawText": "The administrator email on the finance dashboard was changed without anyone in HR department authorizing it.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0167",
+    "rawText": "A confidential file went missing from the procurement unit shared drive; audit logs show access shortly before it disappeared.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0168",
+    "rawText": "A confidential file went missing from the HR department shared drive; audit logs show access shortly before it disappeared. It affected the finance department directly.",
+    "type": "Unauthorized Access",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0169",
+    "rawText": "A confidential file went missing from the works department shared drive; audit logs show access shortly before it disappeared. It affected the finance department directly.",
+    "type": "Unauthorized Access",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0170",
+    "rawText": "The administrator email on the payroll system was changed without anyone in procurement unit authorizing it. This affected multiple accounts.",
+    "type": "Unauthorized Access",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0171",
+    "rawText": "The administrator email on the biometric attendance system was changed without anyone in student affairs office authorizing it.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0172",
+    "rawText": "The administrator email on the research repository was changed without anyone in research office authorizing it.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0173",
+    "rawText": "The administrator email on the student portal was changed without anyone in bursary authorizing it. It involved an administrator account.",
+    "type": "Unauthorized Access",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0174",
+    "rawText": "The administrator email on the exam portal was changed without anyone in computer science department authorizing it.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0175",
+    "rawText": "A confidential file went missing from the admissions office shared drive; audit logs show access shortly before it disappeared.",
+    "type": "Unauthorized Access",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0176",
+    "rawText": "a staff member received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0177",
+    "rawText": "a staff member received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0178",
+    "rawText": "a staff member received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0179",
+    "rawText": "a research assistant received a message claiming they won a staff reward and should click a link to claim it, but did not click. I did not open the file.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0180",
+    "rawText": "a department secretary received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0181",
+    "rawText": "an administrator received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0182",
+    "rawText": "a postgraduate student received a message claiming they won a staff reward and should click a link to claim it, but did not click. A ransom note was attached.",
+    "type": "Phishing Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0183",
+    "rawText": "a staff member received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0184",
+    "rawText": "a lecturer received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0185",
+    "rawText": "a system administrator received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0186",
+    "rawText": "an administrator received a message claiming they won a staff reward and should click a link to claim it, but did not click. The message also asked for BVN details.",
+    "type": "Phishing Attempt",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0187",
+    "rawText": "a visiting researcher received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0188",
+    "rawText": "a student received a message claiming they won a staff reward and should click a link to claim it, but did not click.",
+    "type": "Phishing Attempt",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Awareness"
+  },
+  {
+    "id": "GEN-0189",
+    "rawText": "The finance officer in bursary received an email appearing to be from a senior executive, urgently requesting a transfer to a new account. The message also asked for BVN details.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0190",
+    "rawText": "The finance officer in HR department received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0191",
+    "rawText": "The finance officer in computer science department received an email appearing to be from a senior executive, urgently requesting a transfer to a new account. A ransom note was attached.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0192",
+    "rawText": "The finance officer in computer science department received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0193",
+    "rawText": "The finance officer in finance department received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0194",
+    "rawText": "The finance officer in HR department received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0195",
+    "rawText": "The finance officer in library received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0196",
+    "rawText": "The finance officer in HR department received an email appearing to be from a senior executive, urgently requesting a transfer to a new account. I didn't click anything.",
+    "type": "Business Email Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0197",
+    "rawText": "The finance officer in admissions office received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0198",
+    "rawText": "The finance officer in research office received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0199",
+    "rawText": "The finance officer in admissions office received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0200",
+    "rawText": "The finance officer in research office received an email appearing to be from a senior executive, urgently requesting a transfer to a new account. No further action was taken.",
+    "type": "Business Email Compromise",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0201",
+    "rawText": "The finance officer in works department received an email appearing to be from a senior executive, urgently requesting a transfer to a new account.",
+    "type": "Business Email Compromise",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response / Finance"
+  },
+  {
+    "id": "GEN-0202",
+    "rawText": "A service account tied to works department made an unusually large number of requests to an internal server this morning.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0203",
+    "rawText": "A service account tied to finance department made an unusually large number of requests to an internal server about an hour ago.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0204",
+    "rawText": "A service account tied to registrar's office made an unusually large number of requests to an internal server just now.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0205",
+    "rawText": "A service account tied to procurement unit made an unusually large number of requests to an internal server yesterday afternoon. It affected the finance department directly.",
+    "type": "Suspicious Activity",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0206",
+    "rawText": "A service account tied to library made an unusually large number of requests to an internal server this morning.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0207",
+    "rawText": "A service account tied to admissions office made an unusually large number of requests to an internal server around midnight.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0208",
+    "rawText": "A service account tied to research office made an unusually large number of requests to an internal server about an hour ago.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0209",
+    "rawText": "A service account tied to registrar's office made an unusually large number of requests to an internal server around midnight. A ransom note was attached.",
+    "type": "Suspicious Activity",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0210",
+    "rawText": "A service account tied to student affairs office made an unusually large number of requests to an internal server yesterday afternoon.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0211",
+    "rawText": "A service account tied to ICT unit made an unusually large number of requests to an internal server over the weekend. This affected multiple accounts.",
+    "type": "Suspicious Activity",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0212",
+    "rawText": "A service account tied to student affairs office made an unusually large number of requests to an internal server over the past few days. I did not open the file.",
+    "type": "Suspicious Activity",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0213",
+    "rawText": "A service account tied to registrar's office made an unusually large number of requests to an internal server this morning.",
+    "type": "Suspicious Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0214",
+    "rawText": "A service account tied to research office made an unusually large number of requests to an internal server last night. A ransom note was attached.",
+    "type": "Suspicious Activity",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0215",
+    "rawText": "A server in research office began communicating with an external IP address nobody recognizes, this morning.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0216",
+    "rawText": "A server in library began communicating with an external IP address nobody recognizes, over the weekend.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0217",
+    "rawText": "A server in admissions office began communicating with an external IP address nobody recognizes, just now. No further action was taken.",
+    "type": "Suspicious Network Activity",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0218",
+    "rawText": "A server in HR department began communicating with an external IP address nobody recognizes, over the weekend. It involved an administrator account.",
+    "type": "Suspicious Network Activity",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0219",
+    "rawText": "A server in ICT unit began communicating with an external IP address nobody recognizes, this morning.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0220",
+    "rawText": "A server in computer science department began communicating with an external IP address nobody recognizes, yesterday afternoon.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0221",
+    "rawText": "A server in library began communicating with an external IP address nobody recognizes, around midnight.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0222",
+    "rawText": "A server in bursary began communicating with an external IP address nobody recognizes, sometime overnight. I did not open the file.",
+    "type": "Suspicious Network Activity",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0223",
+    "rawText": "A server in admissions office began communicating with an external IP address nobody recognizes, about an hour ago. I did not open the file.",
+    "type": "Suspicious Network Activity",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0224",
+    "rawText": "A server in registrar's office began communicating with an external IP address nobody recognizes, this morning.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0225",
+    "rawText": "A server in finance department began communicating with an external IP address nobody recognizes, last night. I did not open the file.",
+    "type": "Suspicious Network Activity",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0226",
+    "rawText": "A server in admissions office began communicating with an external IP address nobody recognizes, yesterday afternoon.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0227",
+    "rawText": "A server in registrar's office began communicating with an external IP address nobody recognizes, last night.",
+    "type": "Suspicious Network Activity",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0228",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in research office within minutes of each other. It involved an administrator account.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0229",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in research office within minutes of each other.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0230",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in computer science department within minutes of each other.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0231",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in HR department within minutes of each other. I did not open the file.",
+    "type": "Coordinated Account Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0232",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in library within minutes of each other.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0233",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in bursary within minutes of each other. The message also asked for BVN details.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0234",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in HR department within minutes of each other. It affected the finance department directly.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0235",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in library within minutes of each other.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0236",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in student affairs office within minutes of each other.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0237",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in ICT unit within minutes of each other. It affected the finance department directly.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0238",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in student affairs office within minutes of each other. I did not open the file.",
+    "type": "Coordinated Account Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0239",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in ICT unit within minutes of each other. It affected the finance department directly.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0240",
+    "rawText": "The same suspicious login pattern was observed on two different staff accounts in works department within minutes of each other.",
+    "type": "Coordinated Account Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC / Incident Response"
+  },
+  {
+    "id": "GEN-0241",
+    "rawText": "A computer in works department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download. It involved an administrator account.",
+    "type": "Malware / Scam",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0242",
+    "rawText": "A computer in admissions office displayed a fake antivirus warning claiming dozens of infections and urging an immediate download.",
+    "type": "Malware / Scam",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0243",
+    "rawText": "A computer in HR department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download.",
+    "type": "Malware / Scam",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0244",
+    "rawText": "A computer in library displayed a fake antivirus warning claiming dozens of infections and urging an immediate download.",
+    "type": "Malware / Scam",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0245",
+    "rawText": "A computer in library displayed a fake antivirus warning claiming dozens of infections and urging an immediate download. I did not open the file.",
+    "type": "Malware / Scam",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0246",
+    "rawText": "A computer in works department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download.",
+    "type": "Malware / Scam",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0247",
+    "rawText": "A computer in works department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download.",
+    "type": "Malware / Scam",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0248",
+    "rawText": "A computer in finance department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download.",
+    "type": "Malware / Scam",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0249",
+    "rawText": "A computer in HR department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download. I didn't click anything.",
+    "type": "Malware / Scam",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0250",
+    "rawText": "A computer in registrar's office displayed a fake antivirus warning claiming dozens of infections and urging an immediate download.",
+    "type": "Malware / Scam",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0251",
+    "rawText": "A computer in student affairs office displayed a fake antivirus warning claiming dozens of infections and urging an immediate download. No further action was taken.",
+    "type": "Malware / Scam",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0252",
+    "rawText": "A computer in finance department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download. No further action was taken.",
+    "type": "Malware / Scam",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0253",
+    "rawText": "A computer in works department displayed a fake antivirus warning claiming dozens of infections and urging an immediate download. A ransom note was attached.",
+    "type": "Malware / Scam",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0254",
+    "rawText": "A new account with administrator privileges was created overnight on the learning management system without approval from ICT unit.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0255",
+    "rawText": "A new account with administrator privileges was created overnight on the VPN without approval from student affairs office. No further action was taken.",
+    "type": "Privilege Abuse",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0256",
+    "rawText": "A new account with administrator privileges was created overnight on the student portal without approval from student affairs office.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0257",
+    "rawText": "A new account with administrator privileges was created overnight on the finance dashboard without approval from HR department. I did not open the file.",
+    "type": "Privilege Abuse",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0258",
+    "rawText": "A new account with administrator privileges was created overnight on the finance dashboard without approval from computer science department. I did not open the file.",
+    "type": "Privilege Abuse",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0259",
+    "rawText": "A new account with administrator privileges was created overnight on the staff portal without approval from library. No further action was taken.",
+    "type": "Privilege Abuse",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0260",
+    "rawText": "A new account with administrator privileges was created overnight on the payroll system without approval from procurement unit.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0261",
+    "rawText": "A new account with administrator privileges was created overnight on the learning management system without approval from admissions office. The message also asked for BVN details.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0262",
+    "rawText": "A new account with administrator privileges was created overnight on the email account without approval from HR department.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0263",
+    "rawText": "A new account with administrator privileges was created overnight on the payroll system without approval from bursary.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0264",
+    "rawText": "A new account with administrator privileges was created overnight on the payroll system without approval from library.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0265",
+    "rawText": "A new account with administrator privileges was created overnight on the VPN without approval from HR department.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0266",
+    "rawText": "A new account with administrator privileges was created overnight on the learning management system without approval from finance department.",
+    "type": "Privilege Abuse",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Incident Response"
+  },
+  {
+    "id": "GEN-0267",
+    "rawText": "a postgraduate student received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0268",
+    "rawText": "a contractor received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0269",
+    "rawText": "an intern received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0270",
+    "rawText": "a lecturer received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0271",
+    "rawText": "a department secretary received a ZIP attachment from an unknown sender and downloaded it but has not opened it. This affected multiple accounts.",
+    "type": "Suspicious Attachment",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0272",
+    "rawText": "a contractor received a ZIP attachment from an unknown sender and downloaded it but has not opened it. No further action was taken.",
+    "type": "Suspicious Attachment",
+    "severity": "Low",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0273",
+    "rawText": "an administrator received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0274",
+    "rawText": "a contractor received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0275",
+    "rawText": "a contractor received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0276",
+    "rawText": "a system administrator received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0277",
+    "rawText": "a student received a ZIP attachment from an unknown sender and downloaded it but has not opened it. It affected the finance department directly.",
+    "type": "Suspicious Attachment",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0278",
+    "rawText": "a department secretary received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0279",
+    "rawText": "a system administrator received a ZIP attachment from an unknown sender and downloaded it but has not opened it.",
+    "type": "Suspicious Attachment",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Security Team"
+  },
+  {
+    "id": "GEN-0280",
+    "rawText": "The learning management system has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0281",
+    "rawText": "The online result portal has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0282",
+    "rawText": "The finance dashboard has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0283",
+    "rawText": "The biometric attendance system has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0284",
+    "rawText": "The biometric attendance system has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0285",
+    "rawText": "The exam portal has been unusually slow with several users unable to access it; network traffic is far higher than normal. A ransom note was attached.",
+    "type": "Possible DDoS",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0286",
+    "rawText": "The staff portal has been unusually slow with several users unable to access it; network traffic is far higher than normal. It affected the finance department directly.",
+    "type": "Possible DDoS",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0287",
+    "rawText": "The biometric attendance system has been unusually slow with several users unable to access it; network traffic is far higher than normal. I didn't click anything.",
+    "type": "Possible DDoS",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0288",
+    "rawText": "The online result portal has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0289",
+    "rawText": "The learning management system has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0290",
+    "rawText": "The student portal has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0291",
+    "rawText": "The student portal has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0292",
+    "rawText": "The online result portal has been unusually slow with several users unable to access it; network traffic is far higher than normal.",
+    "type": "Possible DDoS",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "Network / SOC"
+  },
+  {
+    "id": "GEN-0293",
+    "rawText": "a contractor lost a work laptop while traveling; it was still logged into the corporate exam portal session. This affected multiple accounts.",
+    "type": "Lost / Stolen Device",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0294",
+    "rawText": "an intern lost a work laptop while traveling; it was still logged into the corporate hostel booking system session. The message also asked for BVN details.",
+    "type": "Lost / Stolen Device",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0295",
+    "rawText": "an administrator lost a work laptop while traveling; it was still logged into the corporate staff portal session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0296",
+    "rawText": "a finance officer lost a work laptop while traveling; it was still logged into the corporate hostel booking system session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0297",
+    "rawText": "a lecturer lost a work laptop while traveling; it was still logged into the corporate finance dashboard session. It involved an administrator account.",
+    "type": "Lost / Stolen Device",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0298",
+    "rawText": "a student lost a work laptop while traveling; it was still logged into the corporate learning management system session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0299",
+    "rawText": "an administrator lost a work laptop while traveling; it was still logged into the corporate research repository session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0300",
+    "rawText": "a finance officer lost a work laptop while traveling; it was still logged into the corporate exam portal session. I didn't click anything.",
+    "type": "Lost / Stolen Device",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0301",
+    "rawText": "an administrator lost a work laptop while traveling; it was still logged into the corporate staff portal session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0302",
+    "rawText": "a lecturer lost a work laptop while traveling; it was still logged into the corporate email account session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0303",
+    "rawText": "a finance officer lost a work laptop while traveling; it was still logged into the corporate payroll system session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0304",
+    "rawText": "a staff member lost a work laptop while traveling; it was still logged into the corporate VPN session.",
+    "type": "Lost / Stolen Device",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0305",
+    "rawText": "an administrator lost a work laptop while traveling; it was still logged into the corporate learning management system session. It involved an administrator account.",
+    "type": "Lost / Stolen Device",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "IT Security"
+  },
+  {
+    "id": "GEN-0306",
+    "rawText": "Repeated failed login attempts against the finance department VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0307",
+    "rawText": "Repeated failed login attempts against the finance department VPN account are arriving from many different IP addresses. It affected the finance department directly.",
+    "type": "Credential Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0308",
+    "rawText": "Repeated failed login attempts against the research office VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0309",
+    "rawText": "Repeated failed login attempts against the library VPN account are arriving from many different IP addresses. No further action was taken.",
+    "type": "Credential Attack",
+    "severity": "Medium",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0310",
+    "rawText": "Repeated failed login attempts against the research office VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0311",
+    "rawText": "Repeated failed login attempts against the finance department VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0312",
+    "rawText": "Repeated failed login attempts against the computer science department VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0313",
+    "rawText": "Repeated failed login attempts against the ICT unit VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0314",
+    "rawText": "Repeated failed login attempts against the works department VPN account are arriving from many different IP addresses. It involved an administrator account.",
+    "type": "Credential Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0315",
+    "rawText": "Repeated failed login attempts against the admissions office VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0316",
+    "rawText": "Repeated failed login attempts against the registrar's office VPN account are arriving from many different IP addresses.",
+    "type": "Credential Attack",
+    "severity": "High",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0317",
+    "rawText": "Repeated failed login attempts against the admissions office VPN account are arriving from many different IP addresses. This affected multiple accounts.",
+    "type": "Credential Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  },
+  {
+    "id": "GEN-0318",
+    "rawText": "Repeated failed login attempts against the computer science department VPN account are arriving from many different IP addresses. The message also asked for BVN details.",
+    "type": "Credential Attack",
+    "severity": "Critical",
+    "technicalDetails": "See raw text",
+    "routing": "SOC"
+  }
+]

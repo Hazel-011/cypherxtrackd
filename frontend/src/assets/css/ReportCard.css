@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap');
+
+/* ---------- Tokens (same as the other views) ---------- */
+.report-card {
+  --card: #ffffff;
+  --ink: #1b2440;
+  --muted: #586277;
+  --line: #c7cedb;
+  --field: #f5f7fa;
+  --danger: #c62f21;
+
+  /* severity → set by data-severity */
+  --tone: #586277;
+  --tone-ink: #ffffff;
+
+  /* status → set by data-status */
+  --status: #d93a2b;
+
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--card);
+  color: var(--ink);
+  font-family: 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  box-shadow: 0 1px 2px rgba(20, 30, 50, 0.06), 0 12px 24px -16px rgba(20, 30, 50, 0.3);
+}
+
+.report-card[data-severity='Critical'] {
+  --tone: #b91c1c;
+}
+.report-card[data-severity='High'] {
+  --tone: #c2410c;
+}
+.report-card[data-severity='Medium'] {
+  --tone: #f5b301;
+  --tone-ink: #2a1f00;
+}
+.report-card[data-severity='Low'] {
+  --tone: #4d7c0f;
+}
+
+.report-card[data-status='In Progress'] {
+  --status: #f5b301;
+}
+.report-card[data-status='Resolved'] {
+  --status: #1e9e63;
+}
+
+@media (prefers-color-scheme: dark) {
+  .report-card {
+    --card: #1a2230;
+    --ink: #eef2f8;
+    --muted: #9aa5b8;
+    --line: #2e394b;
+    --field: #141b27;
+    --danger: #ff7a6b;
+  }
+  .report-card[data-severity='Critical'] {
+    --tone: #dc3b3b;
+  }
+  .report-card[data-severity='High'] {
+    --tone: #e0621f;
+  }
+  .report-card[data-severity='Low'] {
+    --tone: #6a9e1f;
+  }
+}
+
+.report-card *,
+.report-card *::before,
+.report-card *::after {
+  box-sizing: border-box;
+}
+
+/* tag band = severity */
+.report-card::before {
+  content: '';
+  display: block;
+  height: 6px;
+  background: var(--tone);
+  transition: opacity 0.2s ease;
+}
+
+/* stacking (remove if Queue already uses `gap`) */
+.report-card + .report-card {
+  margin-top: 14px;
+}
+
+/* resolved cards recede so open work stands out */
+.report-card[data-status='Resolved']::before {
+  opacity: 0.4;
+}
+.report-card[data-status='Resolved'] .cleaned-text {
+  color: var(--muted);
+}
+
+/* inner padding */
+.report-card > * {
+  margin-inline: 20px;
+}
+
+/* ---------- Header badges ---------- */
+.report-card .card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.report-card .severity-badge,
+.report-card .type-badge,
+.report-card .dup-badge {
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.report-card .severity-badge {
+  background: var(--tone);
+  color: var(--tone-ink);
+}
+
+.report-card .type-badge {
+  border: 1.5px solid var(--line);
+  font-weight: 500;
+}
+
+.report-card .dup-badge {
+  background: color-mix(in srgb, #f5b301 26%, var(--card));
+  font-weight: 500;
+}
+
+.report-card .id-badge {
+  margin-left: auto;
+  color: var(--muted);
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+}
+
+/* ---------- Body ---------- */
+.report-card .cleaned-text {
+  max-width: 72ch;
+  margin-block: 14px 16px;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+.report-card .meta-row {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 16px;
+  margin-block: 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--field);
+}
+.report-card .meta-row dt {
+  margin-bottom: 2px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+.report-card .meta-row dd {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.report-card .explanation {
+  max-width: 72ch;
+  margin-block: 14px 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--line);
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* ---------- Perforated action row ---------- */
+.report-card .card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-inline: 0;
+  margin-top: 16px;
+  padding: 10px 12px 10px 14px;
+  border-top: 2px dashed var(--line);
+}
+
+.report-card .raw-toggle {
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.report-card .raw-toggle:hover {
+  background: var(--field);
+  color: var(--ink);
+}
+.report-card .raw-toggle[aria-expanded='true'] {
+  color: var(--ink);
+}
+
+/* status select with colour dot */
+.report-card .status-select {
+  position: relative;
+  display: inline-block;
+}
+.report-card .status-select select {
+  height: 40px;
+  padding: 0 34px 0 32px;
+  appearance: none;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: var(--field);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+.report-card .status-select select:hover {
+  border-color: var(--ink);
+}
+.report-card .status-dot {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: var(--status);
+  pointer-events: none;
+  transition: background-color 0.2s ease;
+}
+.report-card .status-chevron {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  display: grid;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+}
+
+/* ---------- Raw (unredacted) panel ---------- */
+.report-card .raw-text {
+  margin: 0 20px 18px;
+  padding: 12px 14px;
+  border-left: 4px solid var(--danger);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--danger) 8%, var(--card));
+}
+.report-card .raw-text em {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--danger);
+}
+.report-card .raw-text p {
+  margin: 8px 0 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Focus & small screens ---------- */
+.report-card .raw-toggle:focus-visible,
+.report-card .status-select select:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .report-card *,
+  .report-card::before {
+    transition: none !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .report-card .meta-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .report-card .id-badge {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+}
